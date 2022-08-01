@@ -1,8 +1,8 @@
 pipeline {
     agent any
-    tools {
-        maven 'M3'
-    }
+    environment {
+       MAVEN_HOME = "/opt/apache-maven-3.8.6"
+   }
     stages {
         stage('Build') {
             steps {
