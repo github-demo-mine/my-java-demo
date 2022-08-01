@@ -25,4 +25,5 @@ You can also rename the executable script. If the executable should be called `h
 mv hello hola
 trigger test
 test again
+webhook
 ```
